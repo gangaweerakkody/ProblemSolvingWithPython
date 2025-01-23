@@ -1,10 +1,15 @@
-a = [x * 2 for x in range(10)]
-b = (x * 2 for x in range(10))
+a = [1, 2, 3, 4 ,5]
+b = a
 
-print(a)
-print(b)
+# Change the 4th index in b
+b[4] = 7
+
+print(id(a))
+print(id(b))
+print(a) # Remember we did not explicitly make changes to a.
 
 """
-[0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
-<generator object <genexpr> at 0x7f61f8808b50>
+2278459070720
+2278459070720
+[1, 2, 3, 4, 7]
 """
