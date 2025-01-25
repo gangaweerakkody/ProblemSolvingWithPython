@@ -1,4 +1,7 @@
-from os import listdir
-from os.path import islife , join
 
-files_list = [f for f in listdir('/home') if isfile(join('/home'.f))]
+# find the version
+import sys
+
+print("Python Version")
+print(sys.version)
+print(sys.version_info)
