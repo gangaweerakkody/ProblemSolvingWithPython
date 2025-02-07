@@ -5,9 +5,6 @@ else:
     print("Odd")
 
 
-
-
-
 n= int(input('Enter a number'))
 
 if (1<=n<=100):
@@ -15,4 +12,11 @@ if (1<=n<=100):
         print('Not Weird')
     else:
         print('Weird')
+
+
+        
+
+
+
+
         
